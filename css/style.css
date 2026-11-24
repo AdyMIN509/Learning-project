@@ -149,7 +149,7 @@ main {
 
 	animation: slideIn linear both;
 	animation-timeline: view();
-	animation-range: cover 10vh cover 30vh;
+	animation-range: cover 10vh cover 50vh;
 }
 
 .blog-image {
