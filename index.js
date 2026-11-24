@@ -8,7 +8,7 @@ const viewMoreBtn = document.getElementById('view-more');
 function getHtmlBlog({id, image, date, title, description}) {
 	return `
 				 <li class="card" id='card-${id}'>
-					<img src="./images/article-image-0${image}.png" alt="" class="blog-image">
+					<img src="/images/article-image-0${image}.png" alt="" class="blog-image">
 					<p class="article-date">${date}</p>
 					<h2 class="article-title">${title}</h2>
 					<p class="article-description">${description}</p>
