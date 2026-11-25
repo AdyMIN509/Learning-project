@@ -102,7 +102,7 @@ main {
 	background: url('/images/article-image-hero.png');
 	background-size: cover;
 	color: white;
-	height: 400px;
+	height: 100dvh;
 	display: flex;
 	align-items: flex-end;
 	padding: var(--container-padding);
@@ -192,9 +192,6 @@ footer > .website {
 }
 
 @media (min-width: 1000px) {
-	.hero {
-		height: 600px;
-	}
 	.article-container {
 		gap: 1rem;
 	}
